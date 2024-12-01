@@ -4,11 +4,6 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbdefd7e-9a14-49d9-94a5-8ec7046af7ab" name="Changes" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/componets/header.tsx">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/beneficios/beneficios.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/beneficios/beneficios.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/inicio/Inicio.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/inicio/Inicio.module.css" afterDir="false" />
-    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,13 +83,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\bruno\\pgvenda\\node_modules\\typescript\\lib&quot;
   }
-}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\bruno\Landpage\my-app\public\img" />
@@ -130,29 +119,29 @@
       <workItem from="1732907236975" duration="13935000" />
       <workItem from="1732973284046" duration="17299000" />
     </task>
-    <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/componets/header.tsx">
+    <task id="LOCAL-00001" summary="Initial commit from Create Next App">
       <option name="closed" value="true" />
-      <created>1733078338660</created>
+      <created>1733009653731</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1733078338660</updated>
+      <updated>1733009653731</updated>
     </task>
-    <task id="LOCAL-00002" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/componets/header.tsx">
+    <task id="LOCAL-00002" summary="Initial commit from Create Next App">
       <option name="closed" value="true" />
-      <created>1733078782245</created>
+      <created>1733010088244</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1733078782245</updated>
+      <updated>1733010088244</updated>
     </task>
-    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/componets/header.tsx">
+    <task id="LOCAL-00003" summary="Initial commit from Create Next App">
       <option name="closed" value="true" />
-      <created>1733078784558</created>
+      <created>1733010257686</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1733078784558</updated>
+      <updated>1733010257686</updated>
     </task>
     <task id="LOCAL-00004" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/componets/header.tsx">
       <option name="closed" value="true" />
@@ -282,7 +271,6 @@
       <option name="project" value="LOCAL" />
       <updated>1733014789869</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +320,6 @@
     <MESSAGE value="sds" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="teste" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/componets/header.tsx" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/componets/header.tsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="teste" />
   </component>
 </project>
