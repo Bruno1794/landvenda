@@ -1,0 +1,35 @@
+.servicos h2 {
+    text-align: center;
+
+}
+
+.servicosGrid {
+    padding-top: 50px;
+    margin-bottom: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 100px 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (max-width: 999px) {
+    .servicosGrid {
+        display: block;
+        padding: 10px;
+
+
+    }
+
+    .servicosGrid img {
+        padding-bottom: 50px;
+        width: 95%;
+        height: 60%;
+
+    }
+
+    .servicos h2 {
+        font-size: 2.9rem;
+    }
+
+}

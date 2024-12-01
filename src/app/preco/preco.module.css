@@ -1,0 +1,72 @@
+.preco {
+
+    padding: 25px;
+}
+
+.preco h2 {
+    text-align: center;
+}
+
+.preco p {
+    padding-top: 10px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #c1c1c1;
+    text-align: center;
+}
+
+.preco {
+    text-align: center;
+}
+
+
+.valor {
+    position: relative;
+}
+
+.valor h1 {
+    display: inline-block;
+    font-size: 8rem;
+    padding-left: 13px;
+
+}
+
+.sifrao {
+    position: absolute;
+    top: 30px;
+}
+
+.centavo {
+    position: absolute;
+    top: 82px;
+    font-size: 1.785rem;
+}
+
+.pagamento {
+    display: block;
+
+}
+.btnAt{
+     width: 50%;
+    display: inline-block;
+
+
+
+}
+@media (max-width: 999px) {
+    .preco{
+        padding: 0 10px 0 10px;
+    }
+    .preco h2{
+        font-size: 2.523rem;
+    }
+    .preco p{
+        font-size: 1.018rem;
+        text-align: center;
+    }
+    .btnAt{
+        margin-bottom: 25px;
+        width: 90%;
+    }
+
+}

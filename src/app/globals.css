@@ -1,0 +1,82 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+    color: white;
+    max-width: 1920px;
+
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+
+}
+
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+img {
+    max-width: 100%;
+    border: 0;
+}
+
+.btnComprar {
+    display: block;
+    background: #DE4A54;
+    color: white;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+
+}
+
+.btnComprar:hover {
+    background: red;
+}
+
+.titulo {
+    font-family: Bahnschrift, "Times New Roman", Times, serif;
+
+    font-size: 3.5rem;
+    position: relative;
+    color: #e2e0e3;
+
+
+}
+
+.titulo:before {
+    position: absolute;
+    content: "";
+    display: inline;
+    background: #DE4A54;
+    height: 20px;
+    width: 20px;
+    bottom: 15px;
+    border-radius: 2%;
+
+
+
+
+
+
+    z-index: -1;
+
+
+}
+.active{
+    background: #DE4A54;
+    padding: 5px;
+    border-radius: 5px;
+}
