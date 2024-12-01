@@ -25,7 +25,7 @@
 @media (max-width: 500px) {
     .inicio {
         font-size: 0.18rem;
-        padding-top: 17rem;
+        padding-top: 15rem;
         background: url("/img/mobile.png") no-repeat top;
     }
 
