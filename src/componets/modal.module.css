@@ -129,57 +129,17 @@
     }
 
 }
-@media (max-width: 470px) {
-    .modal {
-        padding: 10px 60px 15px 60px;
-    }
+@media (max-width: 460px) {
     .tituloModal:before {
-        top: 25px;
+        top: 35px;
         width: 189px;
 
     }
     .modal h1 {
 
         font-size: 1rem;
-        padding: 0 20px 30px 20px;
+        padding: 15px;
 
-    }
-    .form {
-        padding: 0;
-    }
-}
-
-@media (max-width: 379px) {
-    .modal {
-        padding: 10px 60px 15px 60px;
-    }
-    .tituloModal:before {
-        top: 15px;
-        width: 185px;
-
-    }
-    .modal h1 {
-
-        font-size: 0.975rem;
-        padding: 0 20px 20px 20px;
-
-    }
-    .form {
-        padding: 0;
-    }
-    .formGrup label {
-
-        font-size: 0.875rem;
-    }
-    .formGrup input {
-        width: 90%;
-        height: 20px;
-
-    }
-    .btForm{
-        width: 90%;
-        font-size: 0.775rem;
-        height: 40px;
     }
 }
 
