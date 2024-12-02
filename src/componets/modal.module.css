@@ -100,7 +100,7 @@
 
 }
 
-@media (max-width: 720px) {
+/*@media (max-width: 720px) {
 
     .formGrup input {
         width: 90%;
@@ -128,7 +128,7 @@
         font-size: 0.875rem;
     }
 
-}
+}*/
 @media (max-width: 470px) {
     .tituloModal:before {
         top: 35px;
