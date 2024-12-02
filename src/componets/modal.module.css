@@ -21,7 +21,7 @@
     border: 1px solid #DE4A54;
     border-radius: 20px;
     padding: 20px;
-    place-self: center;
+   /* place-self: center;*/
 
 
 }
@@ -100,8 +100,13 @@
 
 }
 
-@media screen and (max-width: 720px) {
-
+@media screen and (max-width: 950px) {
+.modal{
+    top: 230px;
+    left: 150px;
+    right: 150px;
+    width: 60%;
+}
     .formGrup input {
         width: 90%;
         height: 28px;
@@ -119,26 +124,37 @@
         top: 39px;
         width: 250px;
     }
+
     .formGrup label {
 
         font-size: 0.875rem;
     }
-    .btForm{
+
+    .btForm {
         width: 90%;
         font-size: 0.875rem;
     }
 
 }
-@media screen and (max-width: 470px) {
+
+@media screen and (max-width: 630px) {
 
     .modal {
+
+            top: 230px;
+            left: 30px;
+            right: 50px;
+            width: 60%;
+
         padding: 20px 50px 20px 50px;
 
     }
+
     .tituloModal:before {
         display: none;
 
     }
+
     .modal h1 {
 
         font-size: 0.989rem;
@@ -146,9 +162,13 @@
 
 
     }
+
     .form {
         padding: 0;
 
+    }
+    .formGrup input {
+        width: 100%;
     }
 }
 
