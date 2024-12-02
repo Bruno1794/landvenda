@@ -130,15 +130,24 @@
 
 }
 @media screen and (max-width: 470px) {
+
+    .modal {
+        padding: 20px 50px 20px 50px;
+
+    }
     .tituloModal:before {
-        top: 35px;
-        width: 189px;
+        display: none;
 
     }
     .modal h1 {
 
-        font-size: 1rem;
+        font-size: 0.989rem;
         padding: 15px;
+
+
+    }
+    .form {
+        padding: 0;
 
     }
 }
