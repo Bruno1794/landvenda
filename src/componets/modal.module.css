@@ -129,7 +129,7 @@
     }
 
 }
-@media (max-width: 460px) {
+@media (max-width: 470px) {
     .tituloModal:before {
         top: 35px;
         width: 189px;
