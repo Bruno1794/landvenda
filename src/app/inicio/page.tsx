@@ -9,11 +9,10 @@ import React, {useState} from "react";
 
 export default function InicioPage() {
     const [modal, setModal] = useState(false);
-    function handleClick(e: React.MouseEvent<EventTarget>) {
-        e.preventDefault()
-        setModal(true);
 
-    }
+  const openModal = () => setModal(true);
+  const closeModal = () => setModal(false);
+
 
     return (
         <section className={styles.inicio} id="inicio">
@@ -21,7 +20,7 @@ export default function InicioPage() {
                 <h2>Você está perdendo vendas por causa de páginas de venda mal feitas?</h2>
                 <p>Descubra como uma página de venda bem elaborada pode transformar visitantes em clientes fiéis. </p>
 
-                <a onClick={handleClick}
+                <a onClick={openModal}
                    className='btnComprar'>
                     COMPRE AGORA
                 </a>
@@ -29,7 +28,7 @@ export default function InicioPage() {
 
             <div className={styles.imgPrincial}>
             </div>
-            {modal && <Modal/>}
+            {modal && <Modal isOpen={modal} onClose={closeModal}/>}
 
         </section>
 

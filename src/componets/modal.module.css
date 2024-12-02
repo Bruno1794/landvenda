@@ -22,19 +22,17 @@
     border-radius: 20px;
     padding: 20px;
 
-   /* place-self: center;*/
+    /* place-self: center;*/
 
 
 }
 
 .btnFechar {
-position: absolute;
     display: block;
-    text-align: end;
+text-align: end;
     color: #fff;
-    font-size: 16px;
+    font-size: 17px;
     cursor: pointer;
-
     right: 25px;
     top: 15px;
 }
@@ -104,12 +102,13 @@ position: absolute;
 }
 
 @media screen and (max-width: 950px) {
-.modal{
-    top: 230px;
-    left: 150px;
-    right: 150px;
-    width: 60%;
-}
+    .modal {
+        top: 230px;
+        left: 150px;
+        right: 150px;
+        width: 60%;
+    }
+
     .formGrup input {
         width: 90%;
         height: 28px;
@@ -144,10 +143,10 @@ position: absolute;
 
     .modal {
 
-            top: 230px;
-            left: 20px;
-            right: 50px;
-            width: 60%;
+        top: 230px;
+        left: 20px;
+        right: 50px;
+        width: 60%;
 
         padding: 20px 50px 20px 50px;
 
@@ -170,6 +169,7 @@ position: absolute;
         padding: 0;
 
     }
+
     .formGrup input {
         width: 100%;
     }

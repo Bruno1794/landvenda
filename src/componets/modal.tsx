@@ -1,11 +1,18 @@
 import React from 'react';
 import styles from './modal.module.css'
 
-const Modal = () => {
+type ModalProps = {
+    isOpen: boolean;
+    onClose: () => void;
+}
+const Modal = ({isOpen, onClose}: ModalProps) => {
+
+    if (!isOpen) return null
     return (
-        <div className={styles.modalOverlay}>
-            <div className={styles.modal}>
-                <a href="" className={styles.btnFechar}>X</a>
+        <div className={styles.modalOverlay} id="overflow">
+            <div className={styles.modal} id="modal">
+                <a id="fecharBtn" className={styles.btnFechar}
+                   onClick={onClose}>X</a>
 
                 <h1 className={styles.tituloModal}>Preenche os dados abaixo</h1>
 
