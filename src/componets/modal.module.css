@@ -21,19 +21,22 @@
     border: 1px solid #DE4A54;
     border-radius: 20px;
     padding: 20px;
+
    /* place-self: center;*/
 
 
 }
 
 .btnFechar {
-
+position: absolute;
     display: block;
     text-align: end;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
 
+    right: 25px;
+    top: 15px;
 }
 
 .btnFechar:hover {
@@ -142,7 +145,7 @@
     .modal {
 
             top: 230px;
-            left: 30px;
+            left: 20px;
             right: 50px;
             width: 60%;
 
