@@ -100,7 +100,7 @@
 
 }
 
-@media (max-width: 720px) {
+@media screen and (max-width: 720px) {
 
     .formGrup input {
         width: 90%;
@@ -110,7 +110,7 @@
 
     .modal h1 {
 
-        font-size: 1.223rem;
+        font-size: 1.323rem;
         padding: 15px;
 
     }
@@ -129,7 +129,7 @@
     }
 
 }
-@media (max-width: 470px) {
+@media screen and (max-width: 470px) {
     .tituloModal:before {
         top: 35px;
         width: 189px;
