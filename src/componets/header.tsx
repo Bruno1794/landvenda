@@ -4,10 +4,13 @@ import styles from "./header.module.css";
 
 import Image from "next/image";
 import React from "react";
+import {initFacebookPixel} from "@/helper/facebookPixel";
 
 export default function Header() {
 
-
+    React.useEffect(() => {
+        initFacebookPixel('584971474016578'); // Substitua pelo ID do seu Pixel
+    }, []);
     return (
         <header className={styles.header}>
             <Image src="/img/logo.png" alt="Logo" width={80} height={80}/>
