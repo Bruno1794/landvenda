@@ -5,7 +5,7 @@ import postClient from "@/app/actions/post-client";
 import React from "react";
 import {redirect} from "next/navigation";
 import mascaraTel from "@/functions/mascara-tel";
-import {ledFacebookPixel} from "@/helper/facebookPixel";
+
 
 
 type ModalProps = {
@@ -41,10 +41,21 @@ const Modal = ({isOpen, onClose}: ModalProps) => {
         data: null
     });
     React.useEffect(() => {
-        if (state.ok) {
-            ledFacebookPixel('584971474016578');
-            redirect('https://lupistore2.pay.yampi.com.br/r/FJ27IPHQMA');
+
+           if (state.ok) {
+               import("react-facebook-pixel")
+                   .then((x) => x.default)
+                   .then((ReactPixel) => {
+                       ReactPixel.init("584971474016578"); //don't forget to change this
+                       ReactPixel.track('Lead', {
+                           content_name: 'Formulário de Contato Enviado',
+                       });
+                   });
+
+               redirect('https://lupistore2.pay.yampi.com.br/r/FJ27IPHQMA');
+
         }
+
     }, [state.ok]);
 
     if (!isOpen) return null

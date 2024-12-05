@@ -3,10 +3,6 @@ import styles from './Inicio.module.css'
 import Modal from "@/componets/modal";
 import React, {useState} from "react";
 
-/*href="https://lupistore2.pay.yampi.com.br/r/FJ27IPHQMA"*/
-
-
-
 export default function InicioPage() {
     const [modal, setModal] = useState(false);
 

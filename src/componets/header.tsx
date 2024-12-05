@@ -1,15 +1,20 @@
 'use client'
 import styles from "./header.module.css";
-
-
 import Image from "next/image";
 import React from "react";
-import {initFacebookPixel} from "@/helper/facebookPixel";
+
+
+
 
 export default function Header() {
 
     React.useEffect(() => {
-        initFacebookPixel('584971474016578'); // Substitua pelo ID do seu Pixel
+        import("react-facebook-pixel")
+            .then((x) => x.default)
+            .then((ReactPixel) => {
+                ReactPixel.init("584971474016578"); //don't forget to change this
+                ReactPixel.pageView();
+            });
     }, []);
     return (
         <header className={styles.header}>
