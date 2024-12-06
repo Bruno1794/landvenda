@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f060d5e-f337-4312-9ee3-4057ca334580" name="Changes" comment="correção do tamanho da palavra tecnologia no media 400px para 3.875px">
+    <list default="true" id="3f060d5e-f337-4312-9ee3-4057ca334580" name="Changes" comment="quebra da palavra tecnologia">
       <change beforePath="$PROJECT_DIR$/src/app/tecnologia/tecnologia.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/tecnologia/tecnologia.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +143,7 @@
       <workItem from="1733269125952" duration="5027000" />
       <workItem from="1733317235972" duration="9194000" />
       <workItem from="1733407573372" duration="13936000" />
-      <workItem from="1733491989705" duration="3074000" />
+      <workItem from="1733491989705" duration="3599000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <option name="closed" value="true" />
@@ -417,7 +417,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733503049111</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="quebra da palavra tecnologia">
+      <option name="closed" value="true" />
+      <created>1733503306639</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1733503306639</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -483,6 +491,7 @@
     <MESSAGE value="criando a sessão de tecnologia" />
     <MESSAGE value="aumentado o tamanho da palavra tecnologia no media 400px" />
     <MESSAGE value="correção do tamanho da palavra tecnologia no media 400px para 3.875px" />
-    <option name="LAST_COMMIT_MESSAGE" value="correção do tamanho da palavra tecnologia no media 400px para 3.875px" />
+    <MESSAGE value="quebra da palavra tecnologia" />
+    <option name="LAST_COMMIT_MESSAGE" value="quebra da palavra tecnologia" />
   </component>
 </project>
