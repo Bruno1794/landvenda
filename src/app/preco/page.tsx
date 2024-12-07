@@ -23,7 +23,7 @@ export default function PrecoPage() {
 
                 <div className={styles.valor}>
                     <span className={styles.sifrao}>R$</span>
-                    <h1>59</h1>
+                    <h1>119</h1>
                     <span className={styles.centavo}>,99</span>
                     <span className={styles.pagamento}>Pagamento uníco</span>
                     <a onClick={openModal}
