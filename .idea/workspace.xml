@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f060d5e-f337-4312-9ee3-4057ca334580" name="Changes" comment="dimuniu a plavra tecnoligia nomeida 400">
+    <list default="true" id="3f060d5e-f337-4312-9ee3-4057ca334580" name="Changes" comment="correçao do valor na pagina de preço e diminu a escrita da tela tecnologia media 400px">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/preco/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/preco/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tecnologia/tecnologia.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/tecnologia/tecnologia.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Api.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,10 +16,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="JavaScript File" />
         <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -94,7 +93,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/bruno/pgvenda/public/img&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bruno/pgvenda/src/app/actions&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -106,11 +105,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bruno\pgvenda\src\app\actions" />
       <recent name="C:\Users\bruno\pgvenda\public\img" />
       <recent name="C:\Users\bruno\pgvenda\public\icons" />
       <recent name="C:\Users\bruno\pgvenda\public" />
       <recent name="C:\Users\bruno\pgvenda\src\componets" />
-      <recent name="C:\Users\bruno\Landpage\my-app\public\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\bruno\pgvenda\public\img" />
@@ -145,7 +144,9 @@
       <workItem from="1733269125952" duration="5027000" />
       <workItem from="1733317235972" duration="9194000" />
       <workItem from="1733407573372" duration="13936000" />
-      <workItem from="1733491989705" duration="5166000" />
+      <workItem from="1733491989705" duration="5875000" />
+      <workItem from="1733598096662" duration="892000" />
+      <workItem from="1733599264391" duration="6201000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <option name="closed" value="true" />
@@ -435,7 +436,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733503748107</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="correçao do valor na pagina de preço e diminu a escrita da tela tecnologia media 400px">
+      <option name="closed" value="true" />
+      <created>1733538021927</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1733538021927</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,6 +512,7 @@
     <MESSAGE value="correção do tamanho da palavra tecnologia no media 400px para 3.875px" />
     <MESSAGE value="quebra da palavra tecnologia" />
     <MESSAGE value="dimuniu a plavra tecnoligia nomeida 400" />
-    <option name="LAST_COMMIT_MESSAGE" value="dimuniu a plavra tecnoligia nomeida 400" />
+    <MESSAGE value="correçao do valor na pagina de preço e diminu a escrita da tela tecnologia media 400px" />
+    <option name="LAST_COMMIT_MESSAGE" value="correçao do valor na pagina de preço e diminu a escrita da tela tecnologia media 400px" />
   </component>
 </project>
