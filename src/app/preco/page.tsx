@@ -28,7 +28,7 @@ export default function PrecoPage() {
                     <span className={styles.pagamento}>Pagamento uníco</span>
                     <a onClick={openModal}
                        className={`${styles.btnAt} btnComprar`}>
-                        Comprar agora
+                        SAIBA MAIS
                     </a>
                 </div>
 

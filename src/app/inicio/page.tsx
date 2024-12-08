@@ -18,7 +18,7 @@ export default function InicioPage() {
 
                 <a onClick={openModal}
                    className='btnComprar'>
-                    COMPRE AGORA
+                    SAIBA MAIS
                 </a>
             </div>
 

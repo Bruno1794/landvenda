@@ -1,7 +1,7 @@
 import {TypeClient} from "@/app/actions/get-client";
 
 
-export default function ListaCleinte({data}: { data: [] | TypeClient[] }) {
+export default function ListaCleinte({data}: { data:TypeClient[] }) {
 
     return (
         <>
