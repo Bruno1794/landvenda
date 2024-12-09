@@ -1,3 +1,30 @@
-.sectionClientes{
+.sectionClientes {
+    padding: 20px;
 
 }
+
+.tableClient {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.875rem;
+
+}
+
+.tableClient td, .tableClient th {
+    border: 1px solid #ddd;
+    padding: 8px;
+
+}
+
+.tableClient tr:nth-child(even) {
+    background-color: #1E1E1E;
+}
+
+.tableClient th {
+    padding-top: 12px;
+    text-align: left;
+    color: white;
+    background: #1d1d1d;
+}
+
+

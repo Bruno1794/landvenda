@@ -1,0 +1,34 @@
+.sectionObrigado {
+    height: 95vh;
+    align-content: center;
+    justify-items: center;
+
+}
+
+
+.sectionObrigado h1 {
+    font-size: 2.875rem;
+    text-align: center;
+    color: #fcfcfc;
+    font-family: monospace;
+}
+.sectionObrigado p{
+    padding: 5px;
+    color: #1E1E1E;
+    font-size: 1.25rem;
+}
+
+@media (max-width: 610px) {
+
+    .sectionObrigado h1 {
+        font-size: 1.875rem;
+
+    }
+}
+@media (max-width: 400px) {
+
+    .sectionObrigado h1 {
+        font-size: 1.474rem;
+
+    }
+}

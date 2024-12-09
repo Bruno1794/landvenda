@@ -52,7 +52,7 @@ const Modal = ({isOpen, onClose}: ModalProps) => {
                        });
                    });
 
-               redirect('https://lupistore2.pay.yampi.com.br/r/FJ27IPHQMA');
+               redirect('/obrigado');
 
         }
 

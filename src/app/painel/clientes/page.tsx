@@ -18,11 +18,23 @@ export default function PageClientes() {
 
     return (
         <section className={styles.sectionClientes}>
-            <h1>Clientes</h1>
+            <h1>Leads</h1>
             <br/>
-            <ul>
+
+            <table className={styles.tableClient}>
+                <thead>
+                <tr>
+                    <th>E-mail</th>
+                    <th>Açao</th>
+
+                </tr>
+                </thead>
+                <tbody>
                 <ListaCleinte data={data}/>
-            </ul>
+                </tbody>
+            </table>
+
+
         </section>
     );
 }
