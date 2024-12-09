@@ -22,10 +22,10 @@ export default function PrecoPage() {
             <div className={styles.preco}>
 
                 <div className={styles.valor}>
-                    <span className={styles.sifrao}>R$</span>
+                {/*    <span className={styles.sifrao}>R$</span>
                     <h1>119</h1>
                     <span className={styles.centavo}>,99</span>
-                    <span className={styles.pagamento}>Pagamento uníco</span>
+                    <span className={styles.pagamento}>Pagamento uníco</span>*/}
                     <a onClick={openModal}
                        className={`${styles.btnAt} btnComprar`}>
                         SAIBA MAIS

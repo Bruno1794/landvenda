@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f060d5e-f337-4312-9ee3-4057ca334580" name="Changes" comment="Mudei os nomes do btns para saiba mais.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/painel/clientes/clientes.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/painel/clientes/clientes.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/painel/clientes/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/painel/clientes/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/componets/clientes/ListaCleinte.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/componets/clientes/ListaCleinte.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/componets/modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/componets/modal.tsx" afterDir="false" />
+    <list default="true" id="3f060d5e-f337-4312-9ee3-4057ca334580" name="Changes" comment="mudei o redirecionamento para um apagina de obrigado e corrigi a parte do painel clientes.">
+      <change beforePath="$PROJECT_DIR$/src/app/preco/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/preco/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +147,7 @@
       <workItem from="1733598096662" duration="892000" />
       <workItem from="1733599264391" duration="7794000" />
       <workItem from="1733661524391" duration="3714000" />
-      <workItem from="1733751499984" duration="5343000" />
+      <workItem from="1733751499984" duration="5496000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <option name="closed" value="true" />
@@ -473,7 +469,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733662408523</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="mudei o redirecionamento para um apagina de obrigado e corrigi a parte do painel clientes.">
+      <option name="closed" value="true" />
+      <created>1733757580626</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1733757580626</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,7 +522,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sds" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="teste" />
     <MESSAGE value="atualixação" />
@@ -543,6 +546,7 @@
     <MESSAGE value="inciando a o painel e listando os cliente capturado, sem estilação" />
     <MESSAGE value="mudando a url api para produção" />
     <MESSAGE value="Mudei os nomes do btns para saiba mais." />
-    <option name="LAST_COMMIT_MESSAGE" value="Mudei os nomes do btns para saiba mais." />
+    <MESSAGE value="mudei o redirecionamento para um apagina de obrigado e corrigi a parte do painel clientes." />
+    <option name="LAST_COMMIT_MESSAGE" value="mudei o redirecionamento para um apagina de obrigado e corrigi a parte do painel clientes." />
   </component>
 </project>
