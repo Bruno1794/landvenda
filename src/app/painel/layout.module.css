@@ -1,0 +1,47 @@
+.saidbar {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+}
+
+.menu {
+    background: #1d1d1d;
+    height: 100vh;
+
+}
+
+.imagem {
+    display: flex;
+    padding-top: 5px;
+    justify-self: center;
+}
+
+.menu ul {
+    margin-top: 10px;
+}
+
+.menu li {
+
+    padding: 10px;
+    font-size: 0.875rem;
+    border-bottom: 1px solid #c1c1c1;
+
+}
+
+.menu a {
+    color: white;
+}
+
+.menu a:hover {
+    color: #DE4A54;
+}
+
+@media (max-width: 800px) {
+    .saidbar {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+}
