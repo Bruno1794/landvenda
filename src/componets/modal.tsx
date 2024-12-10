@@ -90,7 +90,9 @@ const Modal = ({isOpen, onClose}: ModalProps) => {
 
                             placeholder="WhatsApp"/>
                     </div>
+                    <p className={styles.erro}>{state.error}</p>
                     <FormButton/>
+
 
                 </form>
 
