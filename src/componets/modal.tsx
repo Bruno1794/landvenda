@@ -30,6 +30,9 @@ function FormButton() {
 const Modal = ({isOpen, onClose}: ModalProps) => {
     const [phone, setPhone] = React.useState<string>('');
 
+
+
+
     const handeMasc = (e: React.ChangeEvent<HTMLInputElement>) => {
         const formattedPhone = mascaraTel(e.target.value);
         setPhone(formattedPhone);
@@ -84,6 +87,7 @@ const Modal = ({isOpen, onClose}: ModalProps) => {
                             name="fone" id="fone"
                             value={phone}
                             onChange={handeMasc}
+
                             placeholder="WhatsApp"/>
                     </div>
                     <FormButton/>

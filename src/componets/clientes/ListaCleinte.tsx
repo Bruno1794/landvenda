@@ -13,7 +13,7 @@ export default function ListaCleinte({data}: { data: TypeClient[] }) {
                     <td>{item.email}</td>
                     <td>
                         <Link href={`https://wa.me/${item.fone.replace(/[^0-9]/g, '')}`} target="_blank">
-                            <Image src="/img/whatsapp.png" alt="whatsapp" width={16} height={16}/>
+                            <Image src="/img/whatsapp.png" alt="whatsapp" width={18} height={18}/>
                         </Link>
                     </td>
                 </tr>

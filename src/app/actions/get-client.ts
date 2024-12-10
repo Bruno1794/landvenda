@@ -13,7 +13,8 @@ export default async function getClient() {
 
     const {url} = GET_LEADS();
     const response = await fetch(url, {
-        method: 'GET'
+        method: 'GET',
+
     });
     const {clients} = await response.json();
     return {clients};
