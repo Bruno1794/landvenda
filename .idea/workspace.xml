@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f060d5e-f337-4312-9ee3-4057ca334580" name="Changes" comment="criado a msg de erro no modal">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/actions/post-client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/actions/post-client.ts" afterDir="false" />
+    <list default="true" id="3f060d5e-f337-4312-9ee3-4057ca334580" name="Changes" comment="criado a pagina apenas para captrar o whatsapp do cliente.">
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +150,7 @@
       <workItem from="1733661524391" duration="3714000" />
       <workItem from="1733751499984" duration="17350000" />
       <workItem from="1733837564995" duration="4516000" />
-      <workItem from="1734007878927" duration="9075000" />
+      <workItem from="1734007878927" duration="9168000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <option name="closed" value="true" />
@@ -514,7 +512,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733841505284</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="criado a pagina apenas para captrar o whatsapp do cliente.">
+      <option name="closed" value="true" />
+      <created>1734029319112</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1734029319112</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +565,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/app/inicio/Inicio.module.css&#10;#&#9;src/app/preco/preco.module.css" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;src/componets/modal.module.css" />
     <MESSAGE value="atualização" />
     <MESSAGE value="modal atualizdo" />
@@ -584,6 +589,7 @@
     <MESSAGE value="començando a criar o layot do painel." />
     <MESSAGE value="criado regex para validar o campo telefone" />
     <MESSAGE value="criado a msg de erro no modal" />
-    <option name="LAST_COMMIT_MESSAGE" value="criado a msg de erro no modal" />
+    <MESSAGE value="criado a pagina apenas para captrar o whatsapp do cliente." />
+    <option name="LAST_COMMIT_MESSAGE" value="criado a pagina apenas para captrar o whatsapp do cliente." />
   </component>
 </project>
