@@ -59,7 +59,7 @@ export default function CapturaPgae() {
                 <p className={styles.whatsapp}>Informe seu whatsapp abaixo para mais informações</p>
 
                 <form action={action} className={styles.form}>
-                    <input type="text" placeholder="Whatsapp" onChange={handeMasc} value={phone} name="fone" id="fone"/>
+                    <input type="text" placeholder="(99)99999-999" onChange={handeMasc} value={phone} name="fone" id="fone"/>
                     <button className={styles.btnForm}>-</button>
                 </form>
                 <p className={styles.erro}>{state.error}</p>
