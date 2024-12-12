@@ -7,20 +7,22 @@ import ServicoesPage from "@/app/servicos/page";
 import PrecoPage from "@/app/preco/page";
 import Footer from "@/componets/footer";
 import PageTecnologia from "@/app/tecnologia/page";
+import CapturaPgae from "@/app/captura/page";
 
 
 export default function Home() {
 
   return (
     <>
-        <Header/>
+     {/*   <Header/>
       <InicioPage/>
         <SobrePage/>
         <BeneficiosPage/>
         <PageTecnologia/>
         <ServicoesPage/>
         <PrecoPage/>
-        <Footer/>
+        <Footer/>*/}
+      <CapturaPgae/>
 
     </>
   );
