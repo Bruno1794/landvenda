@@ -6,14 +6,7 @@ export default function Home() {
 
   return (
     <>
-     {/*   <Header/>
-      <InicioPage/>
-        <SobrePage/>
-        <BeneficiosPage/>
-        <PageTecnologia/>
-        <ServicoesPage/>
-        <PrecoPage/>
-        <Footer/>*/}
+
       <CapturaPgae/>
 
     </>

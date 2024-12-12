@@ -10,8 +10,6 @@ import postClient from "@/app/actions/post-client";
 import mascaraTel from "@/functions/mascara-tel";
 
 
-
-
 export default function CapturaPgae() {
     const [phone, setPhone] = React.useState<string>('');
     const handeMasc = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -24,19 +22,28 @@ export default function CapturaPgae() {
         data: null
     });
 
+
+
+    React.useEffect(() => {
+        import("react-facebook-pixel")
+            .then((x) => x.default)
+            .then((ReactPixel) => {
+                ReactPixel.init("584971474016578"); //don't forget to change this
+                ReactPixel.pageView();
+            });
+    }, []);
+
     React.useEffect(() => {
 
         if (state.ok) {
-            /*
-                        import("react-facebook-pixel")
-                            .then((x) => x.default)
-                            .then((ReactPixel) => {
-                                ReactPixel.init("584971474016578"); //don't forget to change this
-                                ReactPixel.track('Lead', {
-                                    content_name: 'Formulário de Contato Enviado',
-                                });
-                            });
-            */
+            import("react-facebook-pixel")
+                .then((x) => x.default)
+                .then((ReactPixel) => {
+                    ReactPixel.init("584971474016578"); //don't forget to change this
+                    ReactPixel.track('Lead', {
+                        content_name: 'Formulário de Contato Enviado',
+                    });
+                });
 
             redirect('/obrigado');
 
