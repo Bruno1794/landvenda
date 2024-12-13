@@ -15,6 +15,9 @@
     font-size: 1.558rem;
     color: #c1c1c1;
 }
+.captura span{
+   border-bottom: 2px solid #DE4A54;
+}
 
 .whatsapp {
     font-size: 1.1rem !important;

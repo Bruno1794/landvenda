@@ -56,7 +56,7 @@ export default function CapturaPgae() {
                 <Image src="/img/logo.png" alt="logo" width={100} height={100}/>
                 <h1>Desenvolvemos paginas de vendas!</h1>
                 <p>páginas de qualidade e alta performance.</p>
-                <p className={styles.whatsapp}>Informe seu whatsapp abaixo para mais informações</p>
+                <p className={styles.whatsapp}>Informe seu <span>whatsApp</span> abaixo para mais informações</p>
 
                 <form action={action} className={styles.form}>
                     <input type="text" placeholder="(99)99999-999" onChange={handeMasc} value={phone} name="fone" id="fone"/>

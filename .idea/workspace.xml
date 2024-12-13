@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f060d5e-f337-4312-9ee3-4057ca334580" name="Changes" comment="ativando pixel do meta ads">
+    <list default="true" id="3f060d5e-f337-4312-9ee3-4057ca334580" name="Changes" comment="tirando padding do rodape no responsivo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/captura/captura.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/captura/captura.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/captura/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/captura/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/componets/footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/componets/footer.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +152,7 @@
       <workItem from="1733661524391" duration="3714000" />
       <workItem from="1733751499984" duration="17350000" />
       <workItem from="1733837564995" duration="4516000" />
-      <workItem from="1734007878927" duration="10473000" />
+      <workItem from="1734007878927" duration="11504000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <option name="closed" value="true" />
@@ -539,7 +538,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734029611297</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="tirando padding do rodape no responsivo">
+      <option name="closed" value="true" />
+      <created>1734042685021</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1734042685021</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -584,7 +591,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="atualização" />
     <MESSAGE value="modal atualizdo" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/componets/modal.module.css" />
     <MESSAGE value="modal atualizado" />
@@ -609,6 +615,7 @@
     <MESSAGE value="criado a msg de erro no modal" />
     <MESSAGE value="criado a pagina apenas para captrar o whatsapp do cliente." />
     <MESSAGE value="ativando pixel do meta ads" />
-    <option name="LAST_COMMIT_MESSAGE" value="ativando pixel do meta ads" />
+    <MESSAGE value="tirando padding do rodape no responsivo" />
+    <option name="LAST_COMMIT_MESSAGE" value="tirando padding do rodape no responsivo" />
   </component>
 </project>
